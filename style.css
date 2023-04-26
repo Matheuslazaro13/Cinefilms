@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414e1;
+    color: #ffff;
+    font-family: 'roboto';
+}
+
+h1,h2,h3,.container,form input {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.container p{
+    width: 300px;
+}
+
+.container{
+   height: 80%;
+}
+
+.container #familia,#acao,#terror,#classicos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+}
+
+
+.container  img{
+    width: 150px;
+}
+
+.cadastro {
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+form input, button{
+    
+    width: 180px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+
+.rodape{
+    text-align: center;
+    padding: 8px;
+    
+}
